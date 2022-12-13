@@ -5,6 +5,8 @@
 * To sort the data in different ways, two buttons are added, one for sorting by ascending alphabet, the other for sorting by median value.
 * For a responsive website for diffferent screen sizes, it used @media rule in CSS to change the font size and position of text and a function named "responsivefy" in JS to preserve aspect ratio of svg. In addition, a tooltip is added to provide a scalable font size for textual desription. 
 * **Explore: https://albatross97.github.io/pattern/**
+
+## Food for thought
 * Please find the food for thought section in the repo's pdf file named "Food for thought".
 
 ## Documentation
