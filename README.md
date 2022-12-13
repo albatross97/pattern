@@ -3,7 +3,7 @@
 * This project is a visualization of PTEN expression data. 
 * It explores bar chart to present the data. The median of each tissue is shown as a bar with color assigned in the chart. 
 * To sort the data in different ways, two buttons are added, one for sorting by ascending alphabet, the other for sorting by median value.
-* For a responsive website for diffferent screen sizes, it used @media rule in CSS to change the font size and position of text and a function named "responsivefy" in JS to preserve aspect ratio of svg.  
+* For a responsive website for diffferent screen sizes, it used @media rule in CSS to change the font size and position of text and a function named "responsivefy" in JS to preserve aspect ratio of svg. In addition, a tooltip is added to provide a scalable font size for textual desription. 
 * **Explore: https://albatross97.github.io/pattern/**
 
 ## Documentation
