@@ -12,10 +12,10 @@
 * Line 22-49 Create a reponsive svg for bar chart and a div for its tooltip 
 * Line 51-91 Use Promise.all to load the two data sets. Apply d3.rollup to calculate the median expression value of each tissue in PTEN_gene_expression.json, and then use map to combine two data sets. Once the merged data is ready, run function "updateChart". To update the chart when changing the sorting method, addEventListener is added.
 * Line 93-164 Create a function named "updateChart" with two parameters: tissueMedianWithColor (the merged dataset) and sortTag (the checked sorting method)
-  - 1. Sort data based on sortTag (alphabet or median value) using d3.ascending or d3.descending.
-  - 2. Create axis
-  - 3. Add hover animation using mouseover and mouseout
-  - 4. Add settings for bars
+  1. Sort data based on sortTag (alphabet or median value) using d3.ascending or d3.descending.
+  2. Create axis
+  3. Add hover animation using mouseover and mouseout
+  4. Add settings for bars
 
 ## Resource
 * D3 v7: https://cdnjs.cloudflare.com/ajax/libs/d3/7.1.1/d3.min.js
