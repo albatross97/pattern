@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+:root {
+  --white: #ffffff;
+  --grey: gray;
+
+  --xs: 4px;
+  --s: 8px;
+  --sm: 14px;
+  --m: 16px;
+  --l: 24px;
+  --description: right;
+}
+
+@media screen and (max-width: 480px) {
+  :root {
+    --sm: 12px;
+    --m: 14px;
+    --l: 20px;
+    --description: left;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  margin: 50px;
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 99;
+  pointer-events: none;
+  padding: var(--xs) var(--s);
+  font-size: var(--sm);
+  background: var(--white);
+  border: solid var(--grey) 1px;
+}
+
+.description {
+  text-align: var(--description);
+  font-size: var(--m);
+}
